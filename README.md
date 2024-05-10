@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +22,7 @@
         </div>
     </div>
     <div id="all">
-        <div class="number"  id="number1">
+        <!-- <div class="number"  id="number1"> -->
             <input type="button" value="Вопрос:1">
             <p class="question"> Что такое закон сохранения энергии?</p>
             <input type="text" class="answer" id="answer1" placeholder="ОТВЕТ">
@@ -80,8 +79,6 @@
 <button id="clean">Очистить данние таблици</button>
 </div>
 <script src="https://cdn.jsdelivr.net/gh/84739494738993/proba/x.js"></script>
-
-
 </body>
 </html>
 
