@@ -13,11 +13,11 @@ body {
 }
 
 .container1 {
-    width: 300px;
+    width: 50%; /* Используем проценты вместо пикселей */
     margin: auto;
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 4%; /* Используем проценты вместо пикселей */
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
@@ -26,16 +26,16 @@ input[type="text"],
 input[type="password"],
 select,
 textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 10px;
+    width: 90%; /* Используем проценты вместо пикселей */
+    padding: 2%; /* Используем проценты вместо пикселей */
+    margin-bottom: 2%; /* Используем проценты вместо пикселей */
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
-button{
-    width: calc(100% - 20px);
-    padding: 10px;
+button {
+    width: 90%; /* Используем проценты вместо пикселей */
+    padding: 2%; /* Используем проценты вместо пикселей */
     background-color: #4caf50;
     color: #fff;
     border: none;
@@ -43,20 +43,15 @@ button{
     cursor: pointer;
 }
 
-
-#clean{
-    width: 200px;
-    height: 60px;
+#clean {
+    width: 15%; /* Используем проценты вместо пикселей */
+    height: 10%; /* Используем проценты вместо пикселей */
     display: none;
     position: relative;
     position: fixed;
-    top: 25px;
-    left:1300px;
+    top: 2.5%; /* Используем проценты вместо пикселей */
+    left: 85%; /* Используем проценты вместо пикселей */
 }
-
-/* button:hover {
-    background-color: #45a049;
-} */
 
 #errorMsg {
     color: red;
@@ -76,56 +71,47 @@ button{
 }
 
 .number input[type="button"] {
-    display: block; /* Делаем кнопки блочными, чтобы они располагались друг под другом */
-    margin-bottom: 15px; /* Добавляем небольшой отступ между кнопками */
+    display: block;
+    margin-bottom: 2%; /* Используем проценты вместо пикселей */
 }
-
-
 
 .question,
 .answer {
     display: none; 
     position: relative;
-    left: 400px;
-
+    left: 40%; /* Используем проценты вместо пикселей */
 }
 
 input[type="button"] {
-    margin-top: 40px;
-    margin-left: 150px;
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
+    margin-top: 5%; /* Используем проценты вместо пикселей */
+    margin-left: 20%; /* Используем проценты вместо пикселей */
+    width: 40%; /* Используем проценты вместо пикселей */
+    height: 7%; /* Используем проценты вместо пикселей */
+    font-size: 1em; /* Используем относительные единицы */
     color:  rgb(255, 255, 255);
     background-color: rgb(100, 100, 100);
 }
-/* input[type="button"]:hover {
-background-color:rgb(255, 255, 255);
-color:  rgb(100, 100, 100);
-} */
 
 #check {
-    width: 300px;
-    height: 100px;
+    width: 50%; /* Используем проценты вместо пикселей */
+    height: 20%; /* Используем проценты вместо пикселей */
     position: relative;
-    top: 600px;
-    left: -550px;
+    top: 30%; /* Используем проценты вместо пикселей */
+    left: -50%; /* Используем проценты вместо пикселей */
     background-color: #45a049;
     color: #ffffff;
     display: none;
-    
 }
 
-#result{
-    width: 200px;
-    height: 60px;
-    position: relative;
+#result {
+    width: 15%; /* Используем проценты вместо пикселей */
+    height: 10%; /* Используем проценты вместо пикселей */
     position: fixed;
-    top: 25px;
-    left: 1300px;
+    top: 2.5%; /* Используем проценты вместо пикселей */
+    left: 85%; /* Используем проценты вместо пикселей */
     background-color: red;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 2em; /* Используем относительные единицы */
     text-align: center;
     display: none;
 }
