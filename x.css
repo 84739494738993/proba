@@ -1,7 +1,6 @@
 @media only screen and (max-width: 600px) {
     /* Ваши стили для маленьких экранов */
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -22,6 +21,7 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
+
 input[type="text"],
 input[type="password"],
 select,
@@ -33,7 +33,7 @@ textarea {
     border-radius: 3px;
 }
 
-button {
+button{
     width: calc(100% - 20px);
     padding: 10px;
     background-color: #4caf50;
@@ -43,21 +43,20 @@ button {
     cursor: pointer;
 }
 
-/* Добавляем вендорные префиксы для box-shadow */
-.container1 {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-}
 
-#clean {
+#clean{
     width: 200px;
     height: 60px;
     display: none;
     position: relative;
+    position: fixed;
     top: 25px;
-    left: 1300px;
+    left:1300px;
 }
+
+/* button:hover {
+    background-color: #45a049;
+} */
 
 #errorMsg {
     color: red;
@@ -81,11 +80,14 @@ button {
     margin-bottom: 15px; /* Добавляем небольшой отступ между кнопками */
 }
 
+
+
 .question,
 .answer {
     display: none; 
     position: relative;
     left: 400px;
+
 }
 
 input[type="button"] {
@@ -97,6 +99,10 @@ input[type="button"] {
     color:  rgb(255, 255, 255);
     background-color: rgb(100, 100, 100);
 }
+/* input[type="button"]:hover {
+background-color:rgb(255, 255, 255);
+color:  rgb(100, 100, 100);
+} */
 
 #check {
     width: 300px;
@@ -107,12 +113,14 @@ input[type="button"] {
     background-color: #45a049;
     color: #ffffff;
     display: none;
+    
 }
 
-#result {
+#result{
     width: 200px;
     height: 60px;
     position: relative;
+    position: fixed;
     top: 25px;
     left: 1300px;
     background-color: red;
