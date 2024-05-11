@@ -1,5 +1,13 @@
 @media only screen and (max-width: 1024px) {
     /* Ваши стили для маленьких экранов*/
+/* Стили для средних экранов (планшеты в альбомной ориентации и некоторые маленькие ноутбуки) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ваши стили для средних экранов */
+
+
+/* Стили для больших экранов (большие ноутбуки и настольные компьютеры) */
+@media only screen and (min-width: 1025px) {
+    /* Ваши стили для больших экранов */
 
 body {
     font-family: Arial, sans-serif;
@@ -114,4 +122,4 @@ input[type="button"] {
     font-size: 2em; /* Используем относительные единицы */
     text-align: center;
     display: none;
-}}
+}}}}
