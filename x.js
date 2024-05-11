@@ -2,6 +2,8 @@
 // const savedUsername = ["user", "a","ф"];
 // const savedPassword = ["password", "a", "ф"];
 let a = 0;
+        document.getElementById("all").style.display = "block";
+        document.getElementById("check").style.display = "block";
 
 
 // Функция для проверки введенных данных
