@@ -4,6 +4,9 @@
 let a = 0;
         document.getElementById("all").style.display = "block";
         document.getElementById("check").style.display = "block";
+         document.getElementById("login-form").style.display = "none";
+        document.getElementById("all").style.display = "none";
+        document.getElementById("check").style.display = "none";
 
 
 // Функция для проверки введенных данных
